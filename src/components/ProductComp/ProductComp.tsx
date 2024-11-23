@@ -12,6 +12,7 @@ function ProductComp() {
 
   return (
     <div className="w-full">
+        aa
       <div className="flex">
         <div className="flex-1 flex">
           <div className="bg-red-500">
