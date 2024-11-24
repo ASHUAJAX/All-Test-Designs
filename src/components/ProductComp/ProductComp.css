@@ -1,0 +1,9 @@
+.buttonClass{
+    background: linear-gradient(183.98deg, #b0ffff 2.37%, #0ff 95.82%);
+    border: 1px solid #04b2a9;
+    border-radius: 6px;
+    color: #000;
+    font-family: AvenirNextLTPro;
+    font-weight: 600;
+    height: 45px;
+}
