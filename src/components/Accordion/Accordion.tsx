@@ -18,6 +18,7 @@ function Accordion({ head, list }:AccordionINTF) {
       <div className="flex mb-2">
         <h2 className="flex-1 text-xl font-semibold">{head}</h2>{" "}
         <ExpandCircleDownIcon
+        className={`${isOpened ? "rotate-180": "rotate-0"} transition-all duration-300 ease-in-out`}
           onClick={() => setIsOpened(!isOpened)}
           style={{ fontSize: "29px" }}
         />
