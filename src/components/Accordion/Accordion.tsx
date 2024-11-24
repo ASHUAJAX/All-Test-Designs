@@ -29,10 +29,10 @@ function Accordion({ head, list }:AccordionINTF) {
             index % 2 === 0 && "bg-cyan-100 dark:text-black"
           } p-2`}
         >
-          <p className="basis-[30%]">
+          <p className="w-[250px]">
             <FiberManualRecordIcon style={{ fontSize: "10px" }} /> {elm.key}
           </p>
-          <p className="basis-[70%] font-bold">{elm.value}</p>
+          <p className="flex-1 font-bold">{elm.value}</p>
         </div>
       ))}
     </div>
