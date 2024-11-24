@@ -1,8 +1,13 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import ExpandCircleDownIcon from "@mui/icons-material/ExpandCircleDown";
 import FiberManualRecordIcon from "@mui/icons-material/FiberManualRecord";
 
-function Accordion({ head, list }) {
+interface AccordionINTF{
+  head : any,
+  list : any
+}
+
+function Accordion({ head, list }:AccordionINTF) {
   const [isOpened, setIsOpened] = useState(true);
   return (
     <div

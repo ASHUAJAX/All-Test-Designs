@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import "./ProductComp.css";
 import { Star } from "@mui/icons-material";
 import Accordion from "../Accordion/Accordion";
