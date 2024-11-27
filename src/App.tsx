@@ -1,12 +1,12 @@
 import './App.css'
-import ProductComp from './components/ProductComp/ProductComp'
+import AppRoutes from './AppRoutes'
 
 function App() {
  
 
   return (
   <>
- <ProductComp/>
+<AppRoutes />
   </>
   )
 }
