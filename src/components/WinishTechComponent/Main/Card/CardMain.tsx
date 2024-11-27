@@ -21,7 +21,7 @@ function CardMain() {
 
   ];
   return (
-    <div className="mt-10 grid grid-cols-4 gap-5">
+    <div className="mt-10 grid grid-cols-4 gap-5 pr-5">
         {
             arr.map((elm,ix)=>(
                 <Card key={ix}  />

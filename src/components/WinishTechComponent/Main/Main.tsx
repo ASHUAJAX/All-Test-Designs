@@ -3,7 +3,7 @@ import Filters from './Filters'
 
 function Main() {
   return (
-    <div className='flex-1 pr-10'>
+    <div className='flex-1 '>
       <Filters/>
       <CardMain/>
     </div>

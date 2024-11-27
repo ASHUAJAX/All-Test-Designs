@@ -7,7 +7,7 @@ import PhoneIcon from '@mui/icons-material/Phone';
 
 function Filters() {
   return (
-    <div className='flex items-center gap-6 '>
+    <div className='flex items-center gap-6 pr-8'>
  <input className='flex-1 border-[2px] p-5 border-black h-[50px] rounded-full placeholder-black'  type='text' placeholder='Search'  />
  <div className='border-[2px] w-[max-content] flex items-center gap-4 text-center border-black px-4 h-[40px] rounded-full'>Filter <SearchIcon/></div>
  <div className='border-[2px] w-[max-content] flex items-center gap-4 text-center border-black px-4 h-[40px] rounded-full'>Date <FilterAltIcon/></div>
