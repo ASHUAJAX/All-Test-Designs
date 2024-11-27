@@ -1,6 +1,5 @@
-import React from 'react'
-import Filters from './Filters'
 import CardMain from './Card/CardMain'
+import Filters from './Filters'
 
 function Main() {
   return (

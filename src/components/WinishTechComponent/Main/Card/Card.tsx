@@ -3,7 +3,9 @@ import MoreVertIcon from "@mui/icons-material/MoreVert";
 import SendIcon from "@mui/icons-material/Send";
 import MessageIcon from "@mui/icons-material/Message";
 import PhoneIcon from "@mui/icons-material/Phone";
-function Card({data}) {
+/* eslint-disable */
+
+function Card() {
   return (
     <div className="border-[3px] border-secondary rounded-2xl h-[max-content] p-4 shadow-bottom ">
       <div className="flex items-center">
