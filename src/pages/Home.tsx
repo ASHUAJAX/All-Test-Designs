@@ -23,7 +23,7 @@ function Home() {
       <div className="flex items-center justify-center gap-4">
         {" "}
         {allTests.map((elm) => (
-          <Link to={elm.url} target="_blank" >
+          <Link to={elm.url}  >
             <button className="bg-lime-500 p-10 shadow-custom rounded-md font-bold text-gray-800">Go To {elm.name}</button>
           </Link>
         ))}{" "}
