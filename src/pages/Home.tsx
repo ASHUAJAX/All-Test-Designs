@@ -19,8 +19,8 @@ function Home() {
 
   return (
     <div className="bg-gray-800  h-[100vh]">
-      <h1 className="text-center text-4xl font-bold p-5 text-lime-400">My Web UI Tests</h1>
-      <div className="flex items-center justify-center gap-4">
+      <h1 className="text-center text-4xl font-bold p-5  text-lime-400">My Web UI Tests</h1>
+      <div className="m-10 flex items-center justify-center gap-4">
         {" "}
         {allTests.map((elm) => (
           <Link to={elm.url}  >

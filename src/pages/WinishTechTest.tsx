@@ -1,7 +1,8 @@
+import WinishTechComponent from "../components/WinishTechComponent/WinishTechComponent"
 
 function WinishTechTest() {
   return (
-    <div>WinishTechTest</div>
+    <WinishTechComponent/>
   )
 }
 
